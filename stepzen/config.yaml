@@ -1,0 +1,4 @@
+configurationset:
+  - configuration:
+      name: postgresql_config
+      uri: postgresql://ep-still-water-a2uj28ew.eu-central-1.aws.neon.tech/botimize?user=botimize_owner&password=LquJ1Zk7eYaS
