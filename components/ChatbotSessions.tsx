@@ -52,7 +52,7 @@ function ChatbotSessions({ chatbots }: { chatbots: Chatbot[] }) {
                   <AccordionContent className="space-y-5 p-5 bg-gray-100 rounded-md">
                     {chatbot.chat_sessions.map((session) => (
                       <Link
-                        href={`/review-sessions${session.id}`}
+                        href={`/review-sessions/${session.id}`}
                         key={session.id}
                         className="relative p-10 bg-[#c46477] text-white rounded-md block"
                       >
