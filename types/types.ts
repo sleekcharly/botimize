@@ -80,3 +80,7 @@ export interface GetChatSessionMessagesResponse {
     };
   };
 }
+
+export interface MessagesByChatSessionIdResponse {
+  chat_sessions: ChatSession;
+}
